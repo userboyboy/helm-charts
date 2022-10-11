@@ -1,5 +1,5 @@
 apiVersion: v1
-appVersion: "2.7.0"
+appVersion: "2.8.3"
 description: A Helm chart for Kubernetes to run query-exporter
 name: query-exporter
 version: 0.1.1

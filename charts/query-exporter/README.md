@@ -1,6 +1,6 @@
 # query-exporter
 
-![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![AppVersion: 2.7.0](https://img.shields.io/badge/AppVersion-2.7.0-informational?style=flat-square)
+![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![AppVersion: 2.8.3](https://img.shields.io/badge/AppVersion-2.8.3-informational?style=flat-square)
 
 A Helm chart for Kubernetes to run query-exporter
 
@@ -23,8 +23,8 @@ A Helm chart for Kubernetes to run query-exporter
 | image.command[3] | string | `"--"` |  |
 | image.command[4] | string | `"/config/config.yaml"` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"adonato/query-exporter"` |  |
-| image.tag | string | `"2.7.0"` |  |
+| image.repository | string | `"10.71.94.111/devops/query-exporter"` |  |
+| image.tag | string | `"2.8.3"` |  |
 | livenessProbe.failureThreshold | int | `2` |  |
 | livenessProbe.httpGet.path | string | `"/"` |  |
 | livenessProbe.httpGet.port | int | `9560` |  |
